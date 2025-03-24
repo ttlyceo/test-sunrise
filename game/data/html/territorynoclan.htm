@@ -1,28 +1,5 @@
-<html><body><font color="LEVEL">[莊園現況]
-
-&lt;div class="content"&gt;
-  &lt;p&gt;親愛的 %playername%，歡迎來到莊園現況頁面。&lt;/p&gt;
-  
-  &lt;div class="status"&gt;
-    &lt;p&gt;你目前所屬的血盟為：&lt;span class="clan-name"&gt;%clanname%&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;血盟等級：&lt;span class="clan-level"&gt;%clanlevel%&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;血盟成員人數：&lt;span class="clan-members"&gt;%clanmembers%&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  
-  &lt;div class="resources"&gt;
-    &lt;p&gt;你的戰鬥值（CP）：&lt;span class="cp"&gt;%playercp%&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;你的魔力值（MP）：&lt;span class="mp"&gt;%playermp%&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  
-  &lt;div class="quests"&gt;
-    &lt;p&gt;未完成的任務：&lt;span class="incomplete-quests"&gt;%incompletequests%&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;已完成的任務：&lt;span class="completed-quests"&gt;%completedquests%&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  
-  &lt;div class="mount"&gt;
-    &lt;p&gt;你目前的坐騎：&lt;span class="mount-name"&gt;%mountname%&lt;/span&gt;&lt;/p&gt;
-    &lt;p&gt;坐騎等級：&lt;span class="mount-level"&gt;%mountlevel%&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</font><br/><br/>名稱：&lt;strong&gt;%castlename%&lt;/strong&gt; 莊園位於 &lt;strong&gt;%territory%&lt;/strong&gt;。<br/>此地區目前尚未被任何血盟統治。<br/><br/>
-<button action="bypass -h npc_%objectId%_Chat 0" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" height="27" value="Initial Screen" width="80">
-</button></body></html>
+<html><body><font color="LEVEL">[Current Manor Status]</font><br><br>
+Name: %castlename% Manor of %territory%<br>
+This area is not currently under the rule of any clan.<br><br>
+<button action="bypass -h npc_%objectId%_Chat 0" value="Initial Screen" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</body></html>
